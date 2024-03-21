@@ -107,13 +107,11 @@ public class SeleniumOperations {
 		System.out.println("Driver info: " + driver);
 		
 		sleep(2);
-		
 		/*
 		 * Load google page.
 		 */
 		// Write code here.
 		driver.get("https://www.google.com");
-		
 		/*
 		 * Set window size manually to 640x480 and wait 2 second.
 		 * Hint: Explore Selenium window functions to select one which allows to pass window size in WxH.
@@ -123,7 +121,6 @@ public class SeleniumOperations {
 		
 		// Sleep for 2 seconds
 	    sleep(2);
-		
 		/*
 		 * Double window size manually to 1280x960 and wait 2 second.		 
 		 */
